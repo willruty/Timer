@@ -1,0 +1,33 @@
+body {
+    background-color: #9e0303;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aliceblue;
+    margin: 150px auto;
+    border-radius: 30px;
+    padding: 30px;
+    width: 600px;
+    text-align: center;
+
+    .relogio{
+        font-size: 2.5em;
+    }
+
+    button {
+        border-radius: 5px;
+        border: 1px solid black;
+        transition: all .3s;
+        
+    }
+}
+
+button:hover{
+    background-color: #cacaca;
+}
+
+.pausado{
+    color: red;
+}
